@@ -8,7 +8,7 @@
 
 ## Documentation
 
-Documentation is available at https://docs.sharetempus.com.
+Documentation is available at http://docs.sharetempus.com
 
 ## API Overview
 
