@@ -1,0 +1,37 @@
+{
+  "name": "sharetempus-node",
+  "version": "1.0.0",
+  "description": "ShareTempus API wrapper",
+  "keywords": [
+    "sharetempus",
+    "api",
+    "insurance",
+    "policy"
+  ],
+  "author": "ShareTempus",
+  "contributors": [
+    "Lucas Bassetti (http://www.lucasbassetti.com.br/)",
+    "Trenton Large (http://trentonlarge.com/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ShareTempus/sharetempus-node.git"
+  },
+  "bugs:": "https://github.com/ShareTempus/sharetempus-node/issues",
+  "main": "lib/ShareTempus.js",
+  "presets": [
+    "latest"
+  ],
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "jasmine-node": "^1.14.5"
+  }
+}
