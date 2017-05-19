@@ -19,11 +19,9 @@
   },
   "bugs:": "https://github.com/ShareTempus/sharetempus-node/issues",
   "main": "lib/ShareTempus.js",
-  "presets": [
-    "latest"
-  ],
   "scripts": {
-    "test": "jasmine-node spec"
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:watch": "npm test -- --watch"
   },
   "license": "MIT",
   "dependencies": {
@@ -31,7 +29,19 @@
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
+    "babel-preset-env": "^1.4.0",
     "babel-preset-latest": "^6.16.0",
-    "jasmine-node": "^1.14.5"
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "jasmine-node": "^1.14.5",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0",
+    "sinon-chai": "^2.10.0",
+    "sinon-stub-promise": "^4.0.0"
   }
 }
