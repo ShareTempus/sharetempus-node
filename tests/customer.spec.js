@@ -38,7 +38,7 @@ describe('Customers', () => {
   });
 
   it('should have find method', () => {
-    expect(ShareTempus.customers.update).to.exist;
+    expect(ShareTempus.customers.find).to.exist;
   });
 
   it('should have retrieve method', () => {
