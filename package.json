@@ -1,7 +1,15 @@
 {
   "name": "sharetempus",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ShareTempus API wrapper",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:watch": "npm test -- --watch"
+  },
+  "main": "lib/ShareTempus.js",
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "sharetempus",
     "api",
@@ -18,11 +26,6 @@
     "url": "git://github.com/ShareTempus/sharetempus-node.git"
   },
   "bugs:": "https://github.com/ShareTempus/sharetempus-node/issues",
-  "main": "lib/ShareTempus.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
-    "test:watch": "npm test -- --watch"
-  },
   "license": "MIT",
   "dependencies": {
     "request": "^2.75.0"
@@ -38,7 +41,6 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.0.1",
-    "jasmine-node": "^1.14.5",
     "mocha": "^3.4.1",
     "sinon": "^2.2.0",
     "sinon-chai": "^2.10.0",
