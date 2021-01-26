@@ -1,6 +1,6 @@
 {
   "name": "sharetempus",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ShareTempus API wrapper",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
